@@ -1,0 +1,15 @@
+# Local .terraform directories
+**/.terraform/*
+
+# Terraform provider cache (VERY IMPORTANT)
+registry.terraform.io/
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Terraform lock file
+.terraform.lock.hcl
+
+# documents
+*.doc
