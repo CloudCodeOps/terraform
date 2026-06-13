@@ -80,7 +80,11 @@ resource "aws_security_group" "webSg" {
 
 # EC2 Instance (Ubuntu)
 resource "aws_instance" "server" {
+<<<<<<< HEAD
   ami                         = "ami-0b6d9d3d33ba97d9" # Ubuntu AMI
+=======
+  ami                         = "ami-0261755bbcb8c4a84" # Ubuntu AMI
+>>>>>>> 54419b26097a145bdffbc16bf4e504b4b7785a20
   instance_type               = "t3.micro"
   key_name                    = aws_key_pair.example.key_name
   subnet_id                   = aws_subnet.sub1.id
